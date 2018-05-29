@@ -8,15 +8,15 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { TwdServiceProvider } from '../providers/twd-service/twd-service';
 import {  HttpModule } from '@angular/http';
-import { SearchPipe } from '../pipes/search/search';
-import { SortPipe } from '../pipes/sort/sort';
+//import { SearchPipe } from '../pipes/search/search';
+//import { SortPipe } from '../pipes/sort/sort';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    SearchPipe,
-    SortPipe
+    //SearchPipe,
+    //SortPipe
   ],
   imports: [
     HttpModule,
